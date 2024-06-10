@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <pre style="font-size: larger;">
+        1 . write a program to print reverse of a number by using while loop
+       -------code--------
+        var a=15822
+        var b=""
+        var i=String(a).length-1;
+        while(i>=0){
+            b=b+String(a)[i]
+            i--;
+        }
+        console.log(b);
+    
+        ------output------
+        Reverse of 15822 is 22851
+
+        2. write a program to check whether input 2 is available in input1
+        -------code--------
+
+        inp="535";
+        inp2="6";
+        t=true
+        for(i=0;i< inp.length;i++){
+            if(inp2==inp[i]){
+                t=true
+                break;
+            }
+            else{
+                t=false
+            }
+        }
+                console.log(t)
+            
+        ------output------
+        false
+
+                
+        3. write a program to check whether a number is event not by using switch statement
+        ------code--------
+
+        a=+prompt("enter number:  ")
+        switch(a%2==0){
+             case true:console.log(a+" is true") 
+                break;
+    
+           case false:console.log(a+" is false")
+                 break;
+                        }
+        
+        ------output------
+        enter number:  2
+        2 is true
+
+    </pre>
+    <script>
+        // var a=15822
+        // var b=""
+        // var i=String(a).length-1;
+        // while(i>=0){
+        //     b=b+String(a)[i]
+        //     i--;
+        // }
+        // console.log("Reverse of "+a+" is " +b);
+
+//         inp="535";
+// inp2="6";
+// t=true
+// for(i=0;i<inp.length;i++){
+//     if(inp2==inp[i]){
+//         t=true
+//         break;
+//     }
+//     else{
+//         t=false
+//     }
+// }
+//         console.log(t)
+
+// a=+prompt("enter number:  ")
+// switch(a%2==0){
+//     case true:console.log(a+" is true") 
+//     break;
+    
+//     case false:console.log(a+" is false")
+//     break;
+// }
+    </script>
+</body>
+</html>
